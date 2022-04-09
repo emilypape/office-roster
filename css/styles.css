@@ -1,0 +1,73 @@
+.teamBar {
+    color: white;
+    background-color: #E74755;
+    font-size: 30pt;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.cardBox {
+    display: flex;
+    justify-content: center;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 4em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px;
+    box-shadow: 10px 10px 25px black;
+
+}
+
+.cardHeader {
+    background-color: #0177F7;
+    color: white;
+    padding: 0 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardBody {
+    background-color: whitesmoke;
+    padding: 2em 1em;
+}
+
+.employeeName {
+    font-size: 26pt;
+    margin: 0.5em -2em;
+}
+
+.employeeRole {
+    font-size: 20pt;
+    margin: 0 0 0.5em -2.5em;
+}
+
+.employeeId {
+    background-color: white;
+    margin: 0.5em 0.5em 0 0.5em;
+    border: 1px solid lightgrey;
+    font-size: 14pt;
+    padding: 0.2em 1em;
+}
+
+.employeeEmail {
+    background-color: white;
+    margin: 0 0.5em 0 0.5em;
+    border: 1px solid lightgray;
+    font-size: 14pt;
+    padding: 0.2em 1em;
+}
+
+.employeeSpecific {
+    background-color: white;
+    margin: 0 0.5em 0.5em 0.5em;
+    border: 1px solid lightgrey;
+    font-size: 14pt;
+    padding: 0.2em 1em;
+}
